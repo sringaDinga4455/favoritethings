@@ -1,0 +1,29 @@
+
+        /* Container for vertical nav */
+        .vertical-nav {
+        width: 200px;               /* fixed width sidebar */
+        background-color: #333;
+        height: 100vh;              /* full viewport height */
+        }
+        /* Remove list styling */
+        .vertical-nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        }
+        /* Links take full width */
+        .vertical-nav a {
+        display: block;             /* stack links vertically */
+        color: white;
+        text-decoration: none;
+        padding: 14px 20px;
+        }
+        /* Hover effect */
+        .vertical-nav a:hover {
+        background-color: #575757;
+        }
+        /* Active/current page */
+        .vertical-nav a.active {
+        background-color: #04AA6D;
+        font-weight: bold;
+        }
